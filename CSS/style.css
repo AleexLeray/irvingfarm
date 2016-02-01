@@ -74,6 +74,18 @@ body {
   height: 500px;
 }
 
+.paragraphe-blanc {
+  position: relative; top: 15%; left:50%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 30%;
+  height: 60%;
+  padding: 2% 2% 2% 2%;
+  background-color: white;
+  font-size: 15px;
+  line-height: 150%;
+}
+
 .paragraphe-blanc h1 {
   margin-top: 0%;
 }
