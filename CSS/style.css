@@ -89,3 +89,30 @@ body {
 .paragraphe-blanc h1 {
   margin-top: 0%;
 }
+
+.block1 {
+  display: flex;
+}
+
+.text-wholesale {
+  display: inline;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 30%;
+  height: 60%;
+  padding: 2% 2% 2% 2%;
+  background-color: white;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.photo-fille {
+  display: inline;
+  /*width: 80%;
+  height: 80%;*/
+}
+
+.photo-fille img {
+  width: 92%;
+  height: 86%;
+}
