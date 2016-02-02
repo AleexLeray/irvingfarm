@@ -9,11 +9,23 @@ body {
   width: 100%;
 }
 
+.shop {
+  position: relative; top: -180px; left: 45%;
+  padding: 8px 20px 8px 20px;
+  font-size: 10px;
+}
+
+.icon-chevron-down {
+  position: relative; top: -130px; left: 40%;
+  color: #FFFFFF;
+}
+
 .menu-login {
   display: flex;
   background-color: #000000;
   color: #FFFFFF;
   font-size: 10px;
+  margin-top: -40px;
 }
 
 .menu-login p {
@@ -35,35 +47,64 @@ body {
 .nav-bar {
   display: flex;
   text-align: center;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
+  margin-left: 5%;
 }
 
 .nav-bar img {
-  width: 15%;
+  width: 10%;
 }
 
 .nav-bar li {
   display: inline;
   padding-left: 5%;
   padding-right: 0.1%;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .onglet-aligne {
   display: flex;
   text-align: center;
   background-color: #E1E1E1;
+  height: 350px;
+}
+
+.photo-gauche {
+  margin-left: 170px;
+  background-color: #FFFFFF;
+  height: 250px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 .photo-gauche img {
-  width: 80%;
+  width: 100%;
+}
+
+.photo-centre {
+  margin-left: 20px;
+  background-color: #FFFFFF;
+  height: 250px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 .photo-centre img {
-  width: 80%;
+  width: 100%;
+}
+
+.photo-droite {
+  margin-left: 20px;
+  margin-right: 170px;
+  background-color: #FFFFFF;
+  height: 250px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 .photo-droite img {
-  width: 80%;
+  width: 100%;
 }
 
 .capucas {
@@ -115,6 +156,77 @@ body {
 
 .photo-fille img {
   position: relative; top: 15%; left:45%;
-  width: 80%;
+  width: 70%;
   height: 65%;
+}
+
+.btn-subscribe {
+  display: flex;
+  background-color: #EBEBEB;
+}
+
+.bouton {
+  display: inline;
+  margin-top: 25px;
+  position: relative; left: 165px;
+}
+
+.envoyer {
+  background-color: #030708;
+  color: #FFFFFF;
+  border: 4px solid #030708;
+}
+
+.Promo {
+  display: inline;
+  margin-left: 50px;
+  position: relative; left: 255px;
+}
+
+.Logo {
+  margin-left: 48%;
+  margin-top: 3%;
+}
+
+.Logo img {
+  width: 8%;
+  height: 8%;
+}
+
+.coffee {
+  margin-left: 10%;
+}
+
+.coffee ul {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 8px;
+  padding-left: 7%;
+  padding-top: 1%;
+  margin-bottom: 80px;
+
+}
+
+span {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+}
+
+.copyright {
+  display:inline;
+  font-size: 8px;
+}
+
+.one {
+  display: inline;
+  margin-left: 175px;
+}
+
+.two {
+  display: inline;
+  margin-left: 520px;
+  padding-bottom: 20px;
 }
