@@ -115,6 +115,33 @@ body {
   height: 500px;
 }
 
+.Molino {
+  background-image: url(../images/slideshow-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: none;
+}
+
+.Pancho {
+  background-image: url(../images/slideshow-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  display: none;
+}
+
+.Amaro {
+  background-image: url(../images/slideshow-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  display: none;
+}
+
 .paragraphe-blanc {
   position: relative; top: 15%; left:50%;
   border-top: 5px solid black;
@@ -229,4 +256,37 @@ footer {
   display: inline;
   margin-left: 520px;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width:500px) {
+  .photo-top {height: auto;}
+  .nav-bar {display: none; height: auto;}
+  .shop {margin-bottom: 0px; height: auto;}
+  .menu-login {display: none;}
+  .onglet-aligne {display: inline-block; height: auto;}
+  .photo-gauche {margin-left: 70px; width: 50%; margin-bottom: 30px;}
+  .photo-gauche img {width: 100%; }
+  .photo-gauche p {margin-top: 0px;}
+  .photo-centre {margin-left: 70px; width: 100%; margin-bottom: 30px;}
+  .photo-centre {width: 50%; }
+  .photo-centre p {margin-top: 0px; }
+  .photo-droite {margin-left: 70px; width: 100%; margin-bottom: 30px;}
+  .photo-droite {width: 50%; }
+  .photo-droite p {margin-top: 0px;}
+  .paragraphe-blanc {height: auto; width: 80%; margin-left: -120px;}
+  .capucas {height: auto;}
+  .Molino {display: inline-block; height: auto; margin-top: 20px;}
+  .Pancho {display: inline-block; height: auto; margin-top: 20px;}
+  .Amaro {display: inline-block; height: auto; margin-top: 20px;}
+  .block1 {height: auto;}
+  .photo-fille {display: none;}
+  .text-wholesale {width: 80%; margin-left: -20px;margin-top: 30px; margin-bottom: 30px;}
+  .btn-subscribe {height: auto; width: 100%; display: inline-block;}
+  .email {float: left; margin-top:20px; margin-left: 10px;width: 75%;}
+  .envoyer {float: left; margin-top:20px;width: 15%;}
+  .btn-subscribe p {float: left; margin-left:20px; text-align: center;}
+  .footer ul li {width: 80%; text-align: center;}
+  .footer ul {width: 30%;}
+  .footer {width: 100%;}
+  .one {margin-left: 0px;}
 }
