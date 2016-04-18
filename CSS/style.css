@@ -1,0 +1,292 @@
+body {
+  width: 100%;
+}
+
+.photo-top {
+  margin-bottom: -0.3%;
+}
+.photo-top img {
+  width: 100%;
+}
+
+.shop {
+  position: relative; top: -180px; left: 45%;
+  padding: 8px 20px 8px 20px;
+  font-size: 10px;
+}
+
+.icon-chevron-down {
+  position: relative; top: -130px; left: 40%;
+  color: #FFFFFF;
+}
+
+.menu-login {
+  display: flex;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 10px;
+  margin-top: -40px;
+}
+
+.menu-login p {
+  display: inline;
+  padding-left: 21%;
+}
+
+.menu-login ul {
+  list-style-type: none;
+  display: inline;
+  padding-left: 25%;
+}
+
+.menu-login li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-left: 5%;
+}
+
+.nav-bar img {
+  width: 10%;
+}
+
+.nav-bar li {
+  display: inline;
+  padding-left: 5%;
+  padding-right: 0.1%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.onglet-aligne {
+  display: flex;
+  text-align: center;
+  background-color: #E1E1E1;
+  height: 350px;
+}
+
+.photo-gauche {
+  margin-left: 170px;
+  background-color: #FFFFFF;
+  height: 250px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.photo-gauche img {
+  width: 100%;
+}
+
+.photo-centre {
+  margin-left: 20px;
+  background-color: #FFFFFF;
+  height: 250px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.photo-centre img {
+  width: 100%;
+}
+
+.photo-droite {
+  margin-left: 20px;
+  margin-right: 170px;
+  background-color: #FFFFFF;
+  height: 250px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.photo-droite img {
+  width: 100%;
+}
+
+.capucas {
+  background-image: url(../images/slideshow-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.Molino {
+  background-image: url(../images/slideshow-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: none;
+}
+
+.Pancho {
+  background-image: url(../images/slideshow-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  display: none;
+}
+
+.Amaro {
+  background-image: url(../images/slideshow-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  display: none;
+}
+
+.paragraphe-blanc {
+  position: relative; top: 15%; left:50%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 30%;
+  height: 60%;
+  padding: 2% 2% 2% 2%;
+  background-color: white;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.paragraphe-blanc h1 {
+  margin-top: 0%;
+}
+
+.block1 {
+  display: flex;
+  height: 400px;
+}
+
+.text-wholesale {
+  position: relative; top: 15%; left:16%;
+  display: inline;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  width: 30%;
+  height: 60%;
+  padding: 2% 2% 2% 2%;
+  background-color: white;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.photo-fille {
+  display: inline;
+
+}
+
+.photo-fille img {
+  position: relative; top: 15%; left:45%;
+  width: 70%;
+  height: 65%;
+}
+
+.btn-subscribe {
+  display: flex;
+  background-color: #EBEBEB;
+}
+
+.bouton {
+  display: inline;
+  margin-top: 25px;
+  position: relative; left: 165px;
+}
+
+.envoyer {
+  background-color: #030708;
+  color: #FFFFFF;
+  border: 4px solid #030708;
+}
+
+.Promo {
+  display: inline;
+  margin-left: 50px;
+  position: relative; left: 255px;
+}
+
+.Logo {
+  margin-left: 48%;
+  margin-top: 3%;
+}
+
+.Logo img {
+  width: 8%;
+  height: 8%;
+}
+
+.coffee {
+  margin-left: 10%;
+}
+
+.coffee ul {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 8px;
+  padding-left: 7%;
+  padding-top: 1%;
+  margin-bottom: 80px;
+
+}
+
+span {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+}
+
+.copyright {
+  display:inline;
+  font-size: 8px;
+}
+
+.one {
+  display: inline;
+  margin-left: 175px;
+}
+
+.two {
+  display: inline;
+  margin-left: 520px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width:500px) {
+  .photo-top {height: auto;}
+  .nav-bar {display: none; height: auto;}
+  .shop {margin-bottom: 0px; height: auto;}
+  .menu-login {display: none;}
+  .onglet-aligne {display: inline-block; height: auto;}
+  .photo-gauche {margin-left: 70px; width: 50%; margin-bottom: 30px;}
+  .photo-gauche img {width: 100%; }
+  .photo-gauche p {margin-top: 0px;}
+  .photo-centre {margin-left: 70px; width: 100%; margin-bottom: 30px;}
+  .photo-centre {width: 50%; }
+  .photo-centre p {margin-top: 0px; }
+  .photo-droite {margin-left: 70px; width: 100%; margin-bottom: 30px;}
+  .photo-droite {width: 50%; }
+  .photo-droite p {margin-top: 0px;}
+  .paragraphe-blanc {height: auto; width: 80%; margin-left: -120px;}
+  .capucas {height: auto;}
+  .Molino {display: inline-block; height: auto; margin-top: 20px;}
+  .Pancho {display: inline-block; height: auto; margin-top: 20px;}
+  .Amaro {display: inline-block; height: auto; margin-top: 20px;}
+  .block1 {height: auto;}
+  .photo-fille {display: none;}
+  .text-wholesale {width: 80%; margin-left: -20px;margin-top: 30px; margin-bottom: 30px;}
+  .btn-subscribe {height: auto; width: 100%; display: inline-block;}
+  .email {float: left; margin-top:20px; margin-left: 10px;width: 75%;}
+  .envoyer {float: left; margin-top:20px;width: 15%;}
+  .btn-subscribe p {float: left; margin-left:20px; text-align: center;}
+  .footer ul li {width: 80%; text-align: center;}
+  .footer ul {width: 30%;}
+  .footer {width: 100%;}
+  .one {margin-left: 0px;}
+}
